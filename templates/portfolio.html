@@ -1,0 +1,95 @@
+<md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="4" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px" >
+
+
+    <md-grid-tile class="yellow" md-rowspan="1" md-colspan="1" md-colspan-sm="1">
+
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+
+        <div layout="column" class="pc">
+            <h3>Portfolio</h3>
+            <div>A selection of work and personal projects I have completed over the years.</div>
+            <div>Much of my work has been for corporate clients and as such doesn't feature here, <a href="#/contact">contact me</a> for more details.</div>
+        </div>
+
+        <md-grid-tile-footer class="pointer" ng-click="go('/')">
+            <ng-md-icon icon="arrow_back" style="fill:white" size="24"></ng-md-icon>
+        </md-grid-tile-footer>
+
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow pointer" md-rowspan="1" md-colspan="2" md-colspan-sm="1" ng-click="goOut('http://www.smartlittleweb.com')">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>SmartLittleWeb.com</h3>
+            <div style="text-align: center"><img src="img/portfolio/slwc.png"/></div>
+            <div>A website design and hosting service targeted at small to medium businesses in the UK.</div>
+            <div>Built on a <a href="http://restlet.com/">Restlet</a>/<a href="http://freemarker.org/">Freemarker</a> stack and much of the front-end is <a href="https://jquery.com/">jQuery</a>.</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow" md-rowspan="2" md-colspan="1" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>Virgin Media Comments</h3>
+            <div style="text-align: center"><img src="img/portfolio/vm.png"/></div>
+            <div>Implementation and hosting of a restful commenting system for posts and stories on a popular consumer website.</div>
+            <div>Featured anti-spam/profanity mechanisms and full moderation capabilities.  It was built using <a href="http://restlet.com/">Restlet</a> (again :) and a custom javascript API.</div>
+            <div>Credited for generating an additional 10 million PIs/month and live for approximately 5 years.</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow" md-rowspan="2" md-colspan="1" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>Bokonon (iPhone)</h3>
+            <div style="text-align: center"><img src="img/portfolio/bokonon.jpg"/></div>
+            <div>Bokonon was a casual iPhone game written mostly for fun and to gain experience using the <a href="http://cocos2d.org/">cocos2d</a> framework.</div>
+            <div>It was released as a free game on the AppStore and did quite well for a while, it's sadly no longer maintained.</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow" md-rowspan="1" md-colspan="1" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>Relaunch (OS X)</h3>
+            <div style="text-align: center"><img src="img/portfolio/relaunch.png"/></div>
+            <div>OS X app to reopen applications following a reboot.  Sold well. OS X now has this feature built in. I wonder where they got the idea ;)</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow" md-rowspan="2" md-colspan="1" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>WifiMap UK (iPhone)</h3>
+            <div style="text-align: center"><img src="img/portfolio/wifi.png"/></div>
+            <div>A wifi hotspot locator for the UK, allowing users to find and also rate wifi hotspots in their area.  Geodata storage and backend admin site were built on <a href="https://cloud.google.com/appengine/">Google AppEngine</a>.</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow" md-rowspan="1" md-colspan="1" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>Noodleboard (OS X)</h3>
+            <div style="text-align: center"><img src="img/portfolio/noodleboard.jpg"/></div>
+            <div>Noodleboard was an encrypted, multi-user notepad widget for OSX.</div>
+        </div>
+    </md-grid-tile>
+
+    <md-grid-tile class="yellow pointer" md-rowspan="1" md-colspan="1" md-colspan-sm="1" ng-click="goOut('http://github.com/soapyfrog/miscps1')">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>PSInvaders (Powershell)</h3>
+            <div style="text-align: center"><img src="img/portfolio/psinvaders.png"/></div>
+            <div>Proud co-author of <a href="http://github.com/soapyfrog/miscps1">psinvaders</a>, probably the first and finest game written exclusively for Powershell.</div>
+        </div>
+    </md-grid-tile>
+
+</md-grid-list>

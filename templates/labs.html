@@ -1,0 +1,43 @@
+<md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="4" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px" >
+
+    <md-grid-tile class="purple" md-rowspan="1" md-colspan="1" md-colspan-sm="1">
+
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+
+        <div layout="column" class="pc">
+            <h3>Labs</h3>
+            <div>The dream factory.</div>
+            <div>This page is for the projects I'm currently working on</div>
+        </div>
+
+        <md-grid-tile-footer class="pointer" ng-click="go('/')">
+            <ng-md-icon icon="arrow_back" style="fill:white" size="24"></ng-md-icon>
+        </md-grid-tile-footer>
+
+    </md-grid-tile>
+
+    <md-grid-tile class="purple" md-rowspan="2" md-colspan="3" md-colspan-sm="1">
+        <md-grid-tile-header>
+        </md-grid-tile-header>
+        <div layout="column" class="pc">
+            <h3>Moog Prodigy Audio Plugin</h3>
+            <div style="text-align: center"><img src="img/labs/prodigy.png"/></div>
+            <div><b>What?</b></div>
+            <div>A waveform accurate modelling of my Moog Prodigy synthesizer.</div>
+            <div>Written in C++ using the <a href="https://github.com/olilarkin/wdl-ol">wdl-ol</a> framework it <i>should</i> eventually be available in both Audio Unit and VST formats for Windows and OS X.</div>
+            <div>Main features : Band limited oscillators, zero-delay filter, hard-sync and more...</div>
+            <div><b>Why?</b></div>
+            <div>
+                Mostly because digital audio processing has always fascinated me and I didn't really understand it -
+                so I set out on a voyage of discovery.
+            </div>
+            <div>
+                It had been a long time since I last did any C++ and even longer since I did Fast Fourier Transforms
+                and the like at university, I wanted to see where C++ was at these days and write something I found challenging.
+            </div>
+            <div>Oh, and Moogs are cool!</div>
+        </div>
+    </md-grid-tile>
+
+</md-grid-list>
